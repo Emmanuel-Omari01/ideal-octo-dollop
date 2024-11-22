@@ -1,0 +1,496 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<smc>
+    <general version="2.0.0.0">
+        <configuration active="true" id="com.renesas.smc.toolchain.gccrx.configuration.release">
+            <property id="com.renesas.smc.service.project.buildArtefactType" values="com.renesas.smc.service.project.buildArtefactType.exe"/>
+            <toolchain id="com.renesas.smc.toolchain.gccrx.toolchain.gccrx">
+                <option id="com.renesas.smc.toolchain.option.language" key="com.renesas.smc.toolchain.option.language.cpp"/>
+                <option id="com.renesas.smc.toolchain.option.buildArtefactType" key="com.renesas.smc.toolchain.option.buildArtefactType.exe"/>
+                <option id="com.renesas.smc.toolchain.option.rtos" key="com.renesas.smc.toolchain.option.rtos.none"/>
+                <option id="com.renesas.smc.toolchain.option.dual" key="com.renesas.smc.toolchain.option.dual.false"/>
+            </toolchain>
+        </configuration>
+        <platform id="R5F51118AxFM"/>
+        <option id="board" value="user_board"/>
+    </general>
+    <tool id="Clock">
+        <option enabled="true" id="vccinput" selection="textinputitem">
+            <item enabled="true" id="textinputitem" input="3.3" value="3.3"/>
+        </option>
+        <option enabled="true" id="mainclockenable" selection="check">
+            <item enabled="true" id="check"/>
+            <item enabled="true" id="uncheck"/>
+        </option>
+        <option enabled="true" id="mainsourcebox" selection="srcR">
+            <item enabled="true" id="srcR"/>
+            <item enabled="true" id="srcEOI"/>
+        </option>
+        <option enabled="true" id="mainfrequency" selection="textinputitem">
+            <item enabled="true" id="textinputitem" input="16" value="16"/>
+        </option>
+        <option enabled="true" id="mainwaitcycle" selection="sBox8192">
+            <item enabled="true" id="sBox2"/>
+            <item enabled="true" id="sBox1024"/>
+            <item enabled="true" id="sBox2048"/>
+            <item enabled="true" id="sBox4096"/>
+            <item enabled="true" id="sBox8192"/>
+            <item enabled="true" id="sBox16384"/>
+            <item enabled="true" id="sBox32768"/>
+            <item enabled="true" id="sBox65536"/>
+        </option>
+        <option enabled="true" id="mainwaittime" selection="textoutputitem">
+            <item enabled="true" id="textoutputitem" input="" value="2048"/>
+        </option>
+        <option enabled="true" id="subclockenable" selection="uncheck">
+            <item enabled="true" id="check"/>
+            <item enabled="true" id="uncheck"/>
+        </option>
+        <option enabled="false" id="subfrequency" selection="textinputitem">
+            <item enabled="true" id="textinputitem" input="" value="32.768"/>
+        </option>
+        <option enabled="false" id="subdrivecap" selection="standardCL">
+            <item enabled="true" id="standardCL"/>
+            <item enabled="true" id="lowCL"/>
+            <item enabled="true" id="mediumCL"/>
+            <item enabled="true" id="highCL"/>
+        </option>
+        <option enabled="true" id="hococlockenable" selection="uncheck">
+            <item enabled="true" id="check"/>
+            <item enabled="true" id="uncheck"/>
+        </option>
+        <option enabled="false" id="hocofrequency" selection="textinputitem">
+            <item enabled="true" id="textinputitem" input="" value="32"/>
+        </option>
+        <option enabled="false" id="hocowaitcycle" selection="sBox266">
+            <item enabled="true" id="sBox266"/>
+        </option>
+        <option enabled="false" id="hocowaittime" selection="textoutputitem">
+            <item enabled="true" id="textoutputitem" input="" value="66.5"/>
+        </option>
+        <option enabled="false" id="hocooscenable" selection="uncheck">
+            <item enabled="true" id="check"/>
+            <item enabled="true" id="uncheck"/>
+        </option>
+        <option enabled="true" id="lococlockenable" selection="uncheck">
+            <item enabled="true" id="check"/>
+            <item enabled="true" id="uncheck"/>
+        </option>
+        <option enabled="false" id="locofrequency" selection="textinputitem">
+            <item enabled="true" id="textinputitem" input="" value="4"/>
+        </option>
+        <option enabled="true" id="iwdtclockenable" selection="uncheck">
+            <item enabled="true" id="check"/>
+            <item enabled="true" id="uncheck"/>
+        </option>
+        <option enabled="false" id="iwdtfrequency" selection="textinputitem">
+            <item enabled="true" id="textinputitem" input="" value="15"/>
+        </option>
+        <option enabled="true" id="plldivider" selection="div1-2">
+            <item enabled="false" id="div1-1"/>
+            <item enabled="true" id="div1-2"/>
+            <item enabled="true" id="div1-4"/>
+        </option>
+        <option enabled="true" id="pllmul" selection="mul6-1">
+            <item enabled="true" id="mul6-1"/>
+            <item enabled="false" id="mul8-1"/>
+        </option>
+        <option enabled="true" id="sckswitcher" selection="pll">
+            <item enabled="true" id="pll" input="" value="48"/>
+            <item enabled="true" id="main" input="" value="16"/>
+            <item enabled="false" id="sub" input="" value="0.032768"/>
+            <item enabled="false" id="hoco" input="" value="32"/>
+            <item enabled="false" id="loco" input="" value="4"/>
+        </option>
+        <option enabled="true" id="fclkdivider" selection="comboBox1-2">
+            <item enabled="false" id="comboBox1-1"/>
+            <item enabled="true" id="comboBox1-2"/>
+            <item enabled="true" id="comboBox1-4"/>
+            <item enabled="true" id="comboBox1-8"/>
+            <item enabled="true" id="comboBox1-16"/>
+            <item enabled="true" id="comboBox1-32"/>
+            <item enabled="true" id="comboBox1-64"/>
+        </option>
+        <option enabled="true" id="iclkdivider" selection="comboBox1-2">
+            <item enabled="false" id="comboBox1-1"/>
+            <item enabled="true" id="comboBox1-2"/>
+            <item enabled="true" id="comboBox1-4"/>
+            <item enabled="true" id="comboBox1-8"/>
+            <item enabled="true" id="comboBox1-16"/>
+            <item enabled="true" id="comboBox1-32"/>
+            <item enabled="true" id="comboBox1-64"/>
+        </option>
+        <option enabled="true" id="pclkbdivider" selection="comboBox1-2">
+            <item enabled="false" id="comboBox1-1"/>
+            <item enabled="true" id="comboBox1-2"/>
+            <item enabled="true" id="comboBox1-4"/>
+            <item enabled="true" id="comboBox1-8"/>
+            <item enabled="true" id="comboBox1-16"/>
+            <item enabled="true" id="comboBox1-32"/>
+            <item enabled="true" id="comboBox1-64"/>
+        </option>
+        <option enabled="true" id="pclkddivider" selection="comboBox1-2">
+            <item enabled="false" id="comboBox1-1"/>
+            <item enabled="true" id="comboBox1-2"/>
+            <item enabled="true" id="comboBox1-4"/>
+            <item enabled="true" id="comboBox1-8"/>
+            <item enabled="true" id="comboBox1-16"/>
+            <item enabled="false" id="comboBox1-32"/>
+            <item enabled="false" id="comboBox1-64"/>
+        </option>
+        <option enabled="true" id="fclk" selection="textoutputitem">
+            <item enabled="true" id="textoutputitem" input="" value="24"/>
+        </option>
+        <option enabled="true" id="iclk" selection="textoutputitem">
+            <item enabled="true" id="textoutputitem" input="" value="24"/>
+        </option>
+        <option enabled="true" id="pclkb" selection="textoutputitem">
+            <item enabled="true" id="textoutputitem" input="" value="24"/>
+        </option>
+        <option enabled="true" id="pclkd" selection="textoutputitem">
+            <item enabled="true" id="textoutputitem" input="" value="24"/>
+        </option>
+        <option enabled="true" id="ckoswitcher" selection="ckomain">
+            <item enabled="true" id="ckomain" input="" value="16"/>
+            <item enabled="false" id="ckosub" input="" value="0.032768"/>
+            <item enabled="false" id="ckohoco" input="" value="32"/>
+            <item enabled="false" id="ckoloco" input="" value="4"/>
+        </option>
+        <option enabled="true" id="ckodivider" selection="comboBox1-2">
+            <item enabled="false" id="comboBox1-1"/>
+            <item enabled="true" id="comboBox1-2"/>
+            <item enabled="true" id="comboBox1-4"/>
+            <item enabled="true" id="comboBox1-8"/>
+            <item enabled="true" id="comboBox1-16"/>
+        </option>
+        <option enabled="true" id="clkoutenable" selection="uncheck">
+            <item enabled="true" id="check"/>
+            <item enabled="true" id="uncheck"/>
+        </option>
+        <option enabled="false" id="clkout" selection="textoutputitem">
+            <item enabled="true" id="textoutputitem" input="" value="8"/>
+        </option>
+        <option enabled="false" id="cachclk" selection="textoutputitem">
+            <item enabled="true" id="textoutputitem" input="" value="32"/>
+        </option>
+        <option enabled="true" id="cacmclk" selection="textoutputitem">
+            <item enabled="true" id="textoutputitem" input="" value="16"/>
+        </option>
+        <option enabled="false" id="caclclk" selection="textoutputitem">
+            <item enabled="true" id="textoutputitem" input="" value="4"/>
+        </option>
+        <option enabled="false" id="cacsclk" selection="textoutputitem">
+            <item enabled="true" id="textoutputitem" input="" value="32.768"/>
+        </option>
+        <option enabled="false" id="cacilclk" selection="textoutputitem">
+            <item enabled="true" id="textoutputitem" input="" value="15"/>
+        </option>
+        <option enabled="false" id="rtcsclkenable" selection="uncheck">
+            <item enabled="true" id="check"/>
+            <item enabled="true" id="uncheck"/>
+        </option>
+        <option enabled="false" id="rtcsclk" selection="textoutputitem">
+            <item enabled="true" id="textoutputitem" input="" value="32.768"/>
+        </option>
+        <option enabled="true" id="bspversion" selection="textinputitem">
+            <item enabled="true" id="textinputitem" input="3.40" value="7.42"/>
+        </option>
+    </tool>
+    <tool id="Interrupt">
+        <Item currentVect="16" id="BSC_BUSERR" priority="15" usedState="Not Use"/>
+        <Item currentVect="23" id="FCU_FRDYI" priority="15" usedState="Not Use"/>
+        <Item currentVect="27" id="ICU_SWINT" priority="15" usedState="Not Use"/>
+        <Item currentVect="28" id="CMT0_CMI0" priority="5" usedState="Used"/>
+        <Item currentVect="29" id="CMT1_CMI1" priority="5" usedState="Used"/>
+        <Item currentVect="32" id="CAC_FERRF" priority="15" usedState="Not Use"/>
+        <Item currentVect="33" id="CAC_MENDF" priority="15" usedState="Not Use"/>
+        <Item currentVect="34" id="CAC_OVFF" priority="15" usedState="Not Use"/>
+        <Item currentVect="36" id="USB0_D0FIFO0" priority="15" usedState="Not Use"/>
+        <Item currentVect="37" id="USB0_D1FIFO0" priority="15" usedState="Not Use"/>
+        <Item currentVect="38" id="USB0_USBI0" priority="15" usedState="Not Use"/>
+        <Item currentVect="44" id="RSPI0_SPEI0" priority="3" usedState="Not Use"/>
+        <Item currentVect="45" id="RSPI0_SPRI0" priority="3" usedState="Used"/>
+        <Item currentVect="46" id="RSPI0_SPTI0" priority="3" usedState="Used"/>
+        <Item currentVect="47" id="RSPI0_SPII0" priority="3" usedState="Not Use"/>
+        <Item currentVect="57" id="DOC_DOPCF" priority="15" usedState="Not Use"/>
+        <Item currentVect="63" id="RTC_CUP" priority="15" usedState="Not Use"/>
+        <Item currentVect="64" id="ICU_IRQ0" priority="15" usedState="Not Use"/>
+        <Item currentVect="65" id="ICU_IRQ1" priority="15" usedState="Not Use"/>
+        <Item currentVect="66" id="ICU_IRQ2" priority="15" usedState="Not Use"/>
+        <Item currentVect="67" id="ICU_IRQ3" priority="15" usedState="Not Use"/>
+        <Item currentVect="68" id="ICU_IRQ4" priority="15" usedState="Not Use"/>
+        <Item currentVect="69" id="ICU_IRQ5" priority="15" usedState="Not Use"/>
+        <Item currentVect="70" id="ICU_IRQ6" priority="15" usedState="Not Use"/>
+        <Item currentVect="71" id="ICU_IRQ7" priority="15" usedState="Not Use"/>
+        <Item currentVect="88" id="LVD_LVD1" priority="15" usedState="Not Use"/>
+        <Item currentVect="89" id="LVD_LVD2" priority="15" usedState="Not Use"/>
+        <Item currentVect="90" id="USB0_USBR0" priority="15" usedState="Not Use"/>
+        <Item currentVect="92" id="RTC_ALM" priority="15" usedState="Not Use"/>
+        <Item currentVect="93" id="RTC_PRD" priority="15" usedState="Not Use"/>
+        <Item currentVect="102" id="S12AD_S12ADI0" priority="15" usedState="Not Use"/>
+        <Item currentVect="103" id="S12AD_GBADI" priority="15" usedState="Not Use"/>
+        <Item currentVect="106" id="ELC_ELSR18I" priority="15" usedState="Not Use"/>
+        <Item currentVect="114" id="MTU0_TGIA0" priority="15" usedState="Not Use"/>
+        <Item currentVect="115" id="MTU0_TGIB0" priority="15" usedState="Not Use"/>
+        <Item currentVect="116" id="MTU0_TGIC0" priority="15" usedState="Not Use"/>
+        <Item currentVect="117" id="MTU0_TGID0" priority="15" usedState="Not Use"/>
+        <Item currentVect="118" id="MTU0_TCIV0" priority="15" usedState="Not Use"/>
+        <Item currentVect="119" id="MTU0_TGIE0" priority="15" usedState="Not Use"/>
+        <Item currentVect="120" id="MTU0_TGIF0" priority="15" usedState="Not Use"/>
+        <Item currentVect="121" id="MTU1_TGIA1" priority="15" usedState="Not Use"/>
+        <Item currentVect="122" id="MTU1_TGIB1" priority="15" usedState="Not Use"/>
+        <Item currentVect="123" id="MTU1_TCIV1" priority="15" usedState="Not Use"/>
+        <Item currentVect="124" id="MTU1_TCIU1" priority="15" usedState="Not Use"/>
+        <Item currentVect="125" id="MTU2_TGIA2" priority="15" usedState="Not Use"/>
+        <Item currentVect="126" id="MTU2_TGIB2" priority="15" usedState="Not Use"/>
+        <Item currentVect="127" id="MTU2_TCIV2" priority="15" usedState="Not Use"/>
+        <Item currentVect="128" id="MTU2_TCIU2" priority="15" usedState="Not Use"/>
+        <Item currentVect="129" id="MTU3_TGIA3" priority="15" usedState="Not Use"/>
+        <Item currentVect="130" id="MTU3_TGIB3" priority="15" usedState="Not Use"/>
+        <Item currentVect="131" id="MTU3_TGIC3" priority="15" usedState="Not Use"/>
+        <Item currentVect="132" id="MTU3_TGID3" priority="15" usedState="Not Use"/>
+        <Item currentVect="133" id="MTU3_TCIV3" priority="15" usedState="Not Use"/>
+        <Item currentVect="134" id="MTU4_TGIA4" priority="15" usedState="Not Use"/>
+        <Item currentVect="135" id="MTU4_TGIB4" priority="15" usedState="Not Use"/>
+        <Item currentVect="136" id="MTU4_TGIC4" priority="15" usedState="Not Use"/>
+        <Item currentVect="137" id="MTU4_TGID4" priority="15" usedState="Not Use"/>
+        <Item currentVect="138" id="MTU4_TCIV4" priority="15" usedState="Not Use"/>
+        <Item currentVect="139" id="MTU5_TGIU5" priority="15" usedState="Not Use"/>
+        <Item currentVect="140" id="MTU5_TGIV5" priority="15" usedState="Not Use"/>
+        <Item currentVect="141" id="MTU5_TGIW5" priority="15" usedState="Not Use"/>
+        <Item currentVect="170" id="POE_OEI1" priority="15" usedState="Not Use"/>
+        <Item currentVect="171" id="POE_OEI2" priority="15" usedState="Not Use"/>
+        <Item currentVect="218" id="SCI1_ERI1" priority="15" usedState="Not Use"/>
+        <Item currentVect="219" id="SCI1_RXI1" priority="15" usedState="Not Use"/>
+        <Item currentVect="220" id="SCI1_TXI1" priority="15" usedState="Not Use"/>
+        <Item currentVect="221" id="SCI1_TEI1" priority="15" usedState="Not Use"/>
+        <Item currentVect="222" id="SCI5_ERI5" priority="15" usedState="Not Use"/>
+        <Item currentVect="223" id="SCI5_RXI5" priority="15" usedState="Not Use"/>
+        <Item currentVect="224" id="SCI5_TXI5" priority="15" usedState="Not Use"/>
+        <Item currentVect="225" id="SCI5_TEI5" priority="15" usedState="Not Use"/>
+        <Item currentVect="238" id="SCI12_ERI12" priority="15" usedState="Not Use"/>
+        <Item currentVect="239" id="SCI12_RXI12" priority="15" usedState="Not Use"/>
+        <Item currentVect="240" id="SCI12_TXI12" priority="15" usedState="Not Use"/>
+        <Item currentVect="241" id="SCI12_TEI12" priority="15" usedState="Not Use"/>
+        <Item currentVect="242" id="SCI12_SCIX0" priority="15" usedState="Not Use"/>
+        <Item currentVect="243" id="SCI12_SCIX1" priority="15" usedState="Not Use"/>
+        <Item currentVect="244" id="SCI12_SCIX2" priority="15" usedState="Not Use"/>
+        <Item currentVect="245" id="SCI12_SCIX3" priority="15" usedState="Not Use"/>
+        <Item currentVect="246" id="RIIC0_EEI0" priority="15" usedState="Not Use"/>
+        <Item currentVect="247" id="RIIC0_RXI0" priority="15" usedState="Not Use"/>
+        <Item currentVect="248" id="RIIC0_TXI0" priority="15" usedState="Not Use"/>
+        <Item currentVect="249" id="RIIC0_TEI0" priority="15" usedState="Not Use"/>
+    </tool>
+    <tool id="Pins" version="1.0.1.0">
+        <pinItem allocation="11" comments="" direction="None" id="XTAL" isUsedBySoftware="true" locked="false" operationMode="" status="0"/>
+        <pinItem allocation="27" comments="" direction="None" id="MISOA" isUsedBySoftware="true" locked="false" operationMode="" status="0"/>
+        <pinItem allocation="12" comments="" direction="None" id="EXTAL" isUsedBySoftware="true" locked="false" operationMode="" status="0"/>
+        <pinItem allocation="6" comments="" direction="None" id="FINED" isUsedBySoftware="true" locked="false" operationMode="" status="0"/>
+        <pinItem allocation="30" comments="" direction="None" id="SSLA0" isUsedBySoftware="true" locked="false" operationMode="" status="0"/>
+        <pinItem allocation="45" comments="" direction="None" id="SSLA1" isUsedBySoftware="true" locked="false" operationMode="" status="0"/>
+        <pinItem allocation="28" comments="" direction="None" id="MOSIA" isUsedBySoftware="true" locked="false" operationMode="" status="0"/>
+        <pinItem allocation="29" comments="" direction="None" id="RSPCKA" isUsedBySoftware="true" locked="false" operationMode="" status="0"/>
+    </tool>
+    <tool id="Summary" version="1.0.0.0">
+        <option id="com.renesas.smc.code.path" value="src/Renesas/Generated"/>
+        <option id="com.renesas.smc.code.type" value="Normal Folder"/>
+    </tool>
+    <tool id="SWComponent" version="1.0.0.0">
+        <configuration inuse="true" name="r_flash_rx">
+            <component description="Dependency : r_bsp version(s) 5.20, 5.30, 5.40, 5.50, 5.52, 6.10, 6.20, 6.21, 7.00, 7.10, 7.20, 7.30, 7.40&#10;This module allows the user to program, erase, write and blankcheck the Code and/or Data flash." detailDescription="Flash API for RX100, RX200, RX600. and RX700." display="r_flash_rx" id="r_flash_rx5.11" version="5.11">
+                <gridItem id="FLASH_CFG_PARAM_CHECKING_ENABLE" selectedIndex="1"/>
+                <gridItem id="FLASH_CFG_CODE_FLASH_ENABLE" selectedIndex="1"/>
+                <gridItem id="FLASH_CFG_DATA_FLASH_BGO" selectedIndex="0"/>
+                <gridItem id="FLASH_CFG_CODE_FLASH_BGO" selectedIndex="0"/>
+                <gridItem id="FLASH_CFG_CODE_FLASH_RUN_FROM_ROM" selectedIndex="0"/>
+            </component>
+            <source description="Components supporting Firmware Integration Technology" display="Firmware Integration Technology" id="com.renesas.smc.tools.swcomponent.fit.source"/>
+            <source description="Components supporting Firmware Integration Technology" display="Firmware Integration Technology" id="com.renesas.smc.tools.swcomponent.fit.source"/>
+        </configuration>
+        <configuration inuse="true" name="r_bsp">
+            <component description="Dependencies : None&#10;The r_bsp package provides a foundation for code to be built on top of. It provides startup code, iodefines, and MCU information for different boards. There are 2 folders that make up the r_bsp package. The 'mcu' folder contains files that are common to a MCU group. These files provide functionality such as easy register access, CPU functions, and a file named 'mcu_info.h' for each MCU group. The 'mcu_info.h' file has information about the MCU on the board and is configured based on the information given in r_bsp_config.h. The information in 'mcu_info.h' is used to help configure Renesas middleware that uses the r_bsp package. The 'board' folder has a folder with startup code for each supported board.  Which MCU and board is chosen is decided by the settings in 'platform.h'. The user can choose which board they are using by uncommenting the include path that applies to their board. For example, if you are using the RSK+RX64M then you would uncomment the #include &quot;./board/generic_rx64m/r_bsp.h&quot; include path. Users are encouraged to add their own boards to the 'board' directory. BSPs are configured by using the r_bsp_config.h file. Each board will have a reference configuration file named r_bsp_config_reference.h. The user should copy this file to their project, rename it to r_bsp_config.h, and use the options inside the file to configure the BSP for their project." detailDescription="Board Support Packages." display="r_bsp" id="r_bsp7.42" version="7.42">
+                <gridItem id="BSP_CFG_USER_STACK_ENABLE" selectedIndex="1"/>
+                <gridItem id="BSP_CFG_USTACK_BYTES" selectedIndex="0x1000"/>
+                <gridItem id="BSP_CFG_ISTACK_BYTES" selectedIndex="0x800"/>
+                <gridItem id="BSP_CFG_HEAP_BYTES" selectedIndex="0x4000"/>
+                <gridItem id="BSP_CFG_IO_LIB_ENABLE" selectedIndex="0"/>
+                <gridItem id="BSP_CFG_USER_CHARGET_ENABLED" selectedIndex="0"/>
+                <gridItem id="BSP_CFG_USER_CHARGET_FUNCTION" selectedIndex="my_sw_charget_function"/>
+                <gridItem id="BSP_CFG_USER_CHARPUT_ENABLED" selectedIndex="0"/>
+                <gridItem id="BSP_CFG_USER_CHARPUT_FUNCTION" selectedIndex="my_sw_charput_function"/>
+                <gridItem id="BSP_CFG_RUN_IN_USER_MODE" selectedIndex="0"/>
+                <gridItem id="BSP_CFG_ID_CODE_LONG_1" selectedIndex="0xFFFFFFFF"/>
+                <gridItem id="BSP_CFG_ID_CODE_LONG_2" selectedIndex="0xFFFFFFFF"/>
+                <gridItem id="BSP_CFG_ID_CODE_LONG_3" selectedIndex="0xFFFFFFFF"/>
+                <gridItem id="BSP_CFG_ID_CODE_LONG_4" selectedIndex="0xFFFFFFFF"/>
+                <gridItem id="BSP_CFG_USER_LOCKING_ENABLED" selectedIndex="0"/>
+                <gridItem id="BSP_CFG_USER_LOCKING_TYPE" selectedIndex="bsp_lock_t"/>
+                <gridItem id="BSP_CFG_USER_LOCKING_HW_LOCK_FUNCTION" selectedIndex="my_hw_locking_function"/>
+                <gridItem id="BSP_CFG_USER_LOCKING_HW_UNLOCK_FUNCTION" selectedIndex="my_hw_unlocking_function"/>
+                <gridItem id="BSP_CFG_USER_LOCKING_SW_LOCK_FUNCTION" selectedIndex="my_sw_locking_function"/>
+                <gridItem id="BSP_CFG_USER_LOCKING_SW_UNLOCK_FUNCTION" selectedIndex="my_sw_unlocking_function"/>
+                <gridItem id="BSP_CFG_USER_WARM_START_CALLBACK_PRE_INITC_ENABLED" selectedIndex="0"/>
+                <gridItem id="BSP_CFG_USER_WARM_START_PRE_C_FUNCTION" selectedIndex="my_sw_warmstart_prec_function"/>
+                <gridItem id="BSP_CFG_USER_WARM_START_CALLBACK_POST_INITC_ENABLED" selectedIndex="0"/>
+                <gridItem id="BSP_CFG_USER_WARM_START_POST_C_FUNCTION" selectedIndex="my_sw_warmstart_postc_function"/>
+                <gridItem id="BSP_CFG_PARAM_CHECKING_ENABLE" selectedIndex="1"/>
+                <gridItem id="BSP_CFG_FIT_IPL_MAX" selectedIndex="15"/>
+                <gridItem id="BSP_CFG_SWINT_UNIT1_ENABLE" selectedIndex="0"/>
+                <gridItem id="BSP_CFG_SWINT_TASK_BUFFER_NUMBER" selectedIndex="8"/>
+                <gridItem id="BSP_CFG_SWINT_IPR_INITIAL_VALUE" selectedIndex="1"/>
+                <gridItem id="BSP_CFG_SCI_UART_TERMINAL_ENABLE" selectedIndex="0"/>
+                <gridItem id="BSP_CFG_SCI_UART_TERMINAL_CHANNEL" selectedIndex="0"/>
+                <gridItem id="BSP_CFG_SCI_UART_TERMINAL_BITRATE" selectedIndex="115200"/>
+                <gridItem id="BSP_CFG_SCI_UART_TERMINAL_INTERRUPT_PRIORITY" selectedIndex="15"/>
+                <gridItem id="BSP_CFG_BUS_PRIORITY_INITIALIZE_ENABLE" selectedIndex="0"/>
+                <gridItem id="BSP_CFG_MEMORY_BUS1_PRIORITY" selectedIndex="0"/>
+                <gridItem id="BSP_CFG_MEMORY_BUS2_PRIORITY" selectedIndex="0"/>
+                <gridItem id="BSP_CFG_INTERNAL_PERIPHERAL_BUS1_PRIORITY" selectedIndex="0"/>
+                <gridItem id="BSP_CFG_INTERNAL_PERIPHERAL_BUS2_3_PRIORITY" selectedIndex="0"/>
+                <gridItem id="BSP_CFG_INTERNAL_PERIPHERAL_BUS6_PRIORITY" selectedIndex="0"/>
+            </component>
+            <source description="Components supporting Firmware Integration Technology" display="Firmware Integration Technology" id="com.renesas.smc.tools.swcomponent.fit.source"/>
+            <source description="Components supporting Firmware Integration Technology" display="Firmware Integration Technology" id="com.renesas.smc.tools.swcomponent.fit.source"/>
+        </configuration>
+        <configuration inuse="true" name="r_rspi_rx">
+            <component description="Dependency : r_bsp version(s) 7.41&#10;This software provides an applications programing interface (API) to prepare the RSPI peripheral for operation and for performing data transfers over the SPI bus." detailDescription="RSPI Driver" display="r_rspi_rx" id="r_rspi_rx3.40" version="3.40">
+                <gridItem id="RSPCKA" selectedIndex="1"/>
+                <gridItem id="MOSIA" selectedIndex="1"/>
+                <gridItem id="MISOA" selectedIndex="1"/>
+                <gridItem id="SSLA0" selectedIndex="1"/>
+                <gridItem id="SSLA1" selectedIndex="1"/>
+                <gridItem id="SSLA2" selectedIndex="0"/>
+                <gridItem id="SSLA3" selectedIndex="0"/>
+                <gridItem id="RSPI0" selectedIndex="1"/>
+                <gridItem id="RSPCKB" selectedIndex="0"/>
+                <gridItem id="MOSIB" selectedIndex="0"/>
+                <gridItem id="MISOB" selectedIndex="0"/>
+                <gridItem id="SSLB0" selectedIndex="0"/>
+                <gridItem id="SSLB1" selectedIndex="0"/>
+                <gridItem id="SSLB2" selectedIndex="0"/>
+                <gridItem id="SSLB3" selectedIndex="0"/>
+                <gridItem id="RSPI1" selectedIndex="0"/>
+                <gridItem id="RSPCKC" selectedIndex="0"/>
+                <gridItem id="MOSIC" selectedIndex="0"/>
+                <gridItem id="MISOC" selectedIndex="0"/>
+                <gridItem id="SSLC0" selectedIndex="0"/>
+                <gridItem id="SSLC1" selectedIndex="0"/>
+                <gridItem id="SSLC2" selectedIndex="0"/>
+                <gridItem id="SSLC3" selectedIndex="0"/>
+                <gridItem id="RSPI2" selectedIndex="0"/>
+                <gridItem id="RSPI_CFG_PARAM_CHECKING_ENABLE" selectedIndex="2"/>
+                <gridItem id="RSPI_CFG_HIGH_SPEED_READ" selectedIndex="1"/>
+                <gridItem id="RSPI_CFG_REQUIRE_LOCK" selectedIndex="1"/>
+                <gridItem id="RSPI_CFG_DUMMY_TXDATA" selectedIndex="0xffffffff"/>
+                <gridItem id="RSPI_CFG_USE_CHAN0" selectedIndex="1"/>
+                <gridItem id="RSPI_CFG_USE_CHAN1" selectedIndex="0"/>
+                <gridItem id="RSPI_CFG_USE_CHAN2" selectedIndex="0"/>
+                <gridItem id="RSPI_CFG_IR_PRIORITY_CHAN0" selectedIndex="3"/>
+                <gridItem id="RSPI_CFG_IR_PRIORITY_CHAN1" selectedIndex="3"/>
+                <gridItem id="RSPI_CFG_IR_PRIORITY_CHAN2" selectedIndex="3"/>
+                <gridItem id="RSPI_CFG_LONGQ_ENABLE" selectedIndex="0"/>
+                <gridItem id="RSPI_CFG_MASK_UNUSED_BITS" selectedIndex="0"/>
+                <gridItem id="RSPI_CFG_USE_RX63_ERROR_INTERRUPT" selectedIndex="0"/>
+            </component>
+            <source description="Components supporting Firmware Integration Technology" display="Firmware Integration Technology" id="com.renesas.smc.tools.swcomponent.fit.source"/>
+            <source description="Components supporting Firmware Integration Technology" display="Firmware Integration Technology" id="com.renesas.smc.tools.swcomponent.fit.source"/>
+        </configuration>
+        <configuration inuse="true" name="r_flash_spi">
+            <component description="Dependency : r_bsp version(s) 7.41&#10;Dependency : r_memdrv_rx version(s) 1.20&#10;The Serial Flash memory control software controls the Serial Flash memory devices using a Renesas Electronics' microcomputer." detailDescription="Clock Synchronous Control Module for Serial Flash memory Access" display="r_flash_spi" id="r_flash_spi3.40" version="3.40">
+                <gridItem id="FLASH_SPI_CFG_WEL_CHK" selectedIndex="1"/>
+                <gridItem id="FLASH_SPI_CFG_LONGQ_ENABLE" selectedIndex="0"/>
+                <gridItem id="FLASH_SPI_CFG_USE_GPIO_MPC_FIT" selectedIndex="0"/>
+                <gridItem id="FLASH_SPI_CFG_DEV0_INCLUDED" selectedIndex="1"/>
+                <gridItem id="FLASH_SPI_CFG_DEV1_INCLUDED" selectedIndex="0"/>
+                <gridItem id="FLASH_SPI_CFG_DEV0_MX25L" selectedIndex="1"/>
+                <gridItem id="FLASH_SPI_CFG_DEV0_MX66L" selectedIndex="0"/>
+                <gridItem id="FLASH_SPI_CFG_DEV0_MX25R" selectedIndex="0"/>
+                <gridItem id="FLASH_SPI_CFG_DEV0_AT25QF" selectedIndex="0"/>
+                <gridItem id="FLASH_SPI_CFG_DEV0_MX25U" selectedIndex="0"/>
+                <gridItem id="FLASH_SPI_CFG_DEV1_MX25L" selectedIndex="0"/>
+                <gridItem id="FLASH_SPI_CFG_DEV1_MX66L" selectedIndex="0"/>
+                <gridItem id="FLASH_SPI_CFG_DEV1_MX25R" selectedIndex="0"/>
+                <gridItem id="FLASH_SPI_CFG_DEV1_AT25QF" selectedIndex="0"/>
+                <gridItem id="FLASH_SPI_CFG_DEV1_MX25U" selectedIndex="0"/>
+                <gridItem id="FLASH_SPI_CFG_DEV0_SIZE_512K" selectedIndex="0"/>
+                <gridItem id="FLASH_SPI_CFG_DEV0_SIZE_1M" selectedIndex="0"/>
+                <gridItem id="FLASH_SPI_CFG_DEV0_SIZE_2M" selectedIndex="0"/>
+                <gridItem id="FLASH_SPI_CFG_DEV0_SIZE_4M" selectedIndex="0"/>
+                <gridItem id="FLASH_SPI_CFG_DEV0_SIZE_16M" selectedIndex="0"/>
+                <gridItem id="FLASH_SPI_CFG_DEV0_SIZE_32M" selectedIndex="0"/>
+                <gridItem id="FLASH_SPI_CFG_DEV0_SIZE_64M" selectedIndex="1"/>
+                <gridItem id="FLASH_SPI_CFG_DEV0_SIZE_128M" selectedIndex="0"/>
+                <gridItem id="FLASH_SPI_CFG_DEV0_SIZE_256M" selectedIndex="0"/>
+                <gridItem id="FLASH_SPI_CFG_DEV0_SIZE_512M" selectedIndex="0"/>
+                <gridItem id="FLASH_SPI_CFG_DEV0_SIZE_1G" selectedIndex="0"/>
+                <gridItem id="FLASH_SPI_CFG_DEV1_SIZE_512K" selectedIndex="0"/>
+                <gridItem id="FLASH_SPI_CFG_DEV1_SIZE_1M" selectedIndex="0"/>
+                <gridItem id="FLASH_SPI_CFG_DEV1_SIZE_2M" selectedIndex="0"/>
+                <gridItem id="FLASH_SPI_CFG_DEV1_SIZE_4M" selectedIndex="0"/>
+                <gridItem id="FLASH_SPI_CFG_DEV1_SIZE_16M" selectedIndex="0"/>
+                <gridItem id="FLASH_SPI_CFG_DEV1_SIZE_32M" selectedIndex="0"/>
+                <gridItem id="FLASH_SPI_CFG_DEV1_SIZE_64M" selectedIndex="0"/>
+                <gridItem id="FLASH_SPI_CFG_DEV1_SIZE_128M" selectedIndex="0"/>
+                <gridItem id="FLASH_SPI_CFG_DEV1_SIZE_256M" selectedIndex="0"/>
+                <gridItem id="FLASH_SPI_CFG_DEV1_SIZE_512M" selectedIndex="0"/>
+                <gridItem id="FLASH_SPI_CFG_DEV1_SIZE_1G" selectedIndex="0"/>
+                <gridItem id="FLASH_SPI_CS_DEV0_CFG_PORTNO" selectedIndex="12"/>
+                <gridItem id="FLASH_SPI_CS_DEV0_CFG_BITNO" selectedIndex="4"/>
+                <gridItem id="FLASH_SPI_CS_DEV1_CFG_PORTNO" selectedIndex="33"/>
+                <gridItem id="FLASH_SPI_CS_DEV1_CFG_BITNO" selectedIndex="0"/>
+            </component>
+            <source description="Components supporting Firmware Integration Technology" display="Firmware Integration Technology" id="com.renesas.smc.tools.swcomponent.fit.source"/>
+            <source description="Components supporting Firmware Integration Technology" display="Firmware Integration Technology" id="com.renesas.smc.tools.swcomponent.fit.source"/>
+        </configuration>
+        <configuration inuse="true" name="r_memdrv_rx">
+            <component description="Dependency : r_bsp version(s) 7.41&#10;The MEMDRV FIT module functions as an adapter between an upper layer consisting of serial NOR or NAND flash command control middleware and a lower layer consisting of an RSPI, QSPI, SCI (SPI mode) or RSCI (SPI mode) device driver." detailDescription="MEMDRV Driver" display="r_memdrv_rx" id="r_memdrv_rx1.20" version="1.20">
+                <gridItem id="MEMDRV_CFG_DEV0_INCLUDED" selectedIndex="1"/>
+                <gridItem id="MEMDRV_CFG_DEV1_INCLUDED" selectedIndex="0"/>
+                <gridItem id="MEMDRV_CFG_DEV0_MODE_TRNS" selectedIndex="0"/>
+                <gridItem id="MEMDRV_CFG_DEV1_MODE_TRNS" selectedIndex="0"/>
+                <gridItem id="MEMDRV_CFG_DEV0_MODE_DRVR" selectedIndex="0"/>
+                <gridItem id="MEMDRV_CFG_DEV1_MODE_DRVR" selectedIndex="0"/>
+                <gridItem id="MEMDRV_CFG_DEV0_MODE_DRVR_CH" selectedIndex="0"/>
+                <gridItem id="MEMDRV_CFG_DEV1_MODE_DRVR_CH" selectedIndex="0"/>
+                <gridItem id="MEMDRV_CFG_DEV0_TYPE" selectedIndex="0"/>
+                <gridItem id="MEMDRV_CFG_DEV1_TYPE" selectedIndex="0"/>
+                <gridItem id="MEMDRV_CFG_DEV0_BR" selectedIndex="1000000"/>
+                <gridItem id="MEMDRV_CFG_DEV0_BR_WRITE_DATA" selectedIndex="1000000"/>
+                <gridItem id="MEMDRV_CFG_DEV0_BR_READ_DATA" selectedIndex="1000000"/>
+                <gridItem id="MEMDRV_CFG_DEV1_BR" selectedIndex="1000000"/>
+                <gridItem id="MEMDRV_CFG_DEV1_BR_WRITE_DATA" selectedIndex="1000000"/>
+                <gridItem id="MEMDRV_CFG_DEV1_BR_READ_DATA" selectedIndex="1000000"/>
+                <gridItem id="MEMDRV_CFG_DEV0_DMAC_CH_NO_Tx" selectedIndex="0"/>
+                <gridItem id="MEMDRV_CFG_DEV0_DMAC_CH_NO_Rx" selectedIndex="1"/>
+                <gridItem id="MEMDRV_CFG_DEV1_DMAC_CH_NO_Tx" selectedIndex="2"/>
+                <gridItem id="MEMDRV_CFG_DEV1_DMAC_CH_NO_Rx" selectedIndex="3"/>
+                <gridItem id="MEMDRV_CFG_DEV0_DMAC_INT_PRL_Tx" selectedIndex="10"/>
+                <gridItem id="MEMDRV_CFG_DEV0_DMAC_INT_PRL_Rx" selectedIndex="10"/>
+                <gridItem id="MEMDRV_CFG_DEV1_DMAC_INT_PRL_Tx" selectedIndex="10"/>
+                <gridItem id="MEMDRV_CFG_DEV1_DMAC_INT_PRL_Rx" selectedIndex="10"/>
+                <gridItem id="MEMDRV_CFG_PARAM_CHECKING_ENABLE" selectedIndex="2"/>
+                <gridItem id="MEMDRV_CFG_LONGQ_ENABLE" selectedIndex="0"/>
+            </component>
+            <source description="Components supporting Firmware Integration Technology" display="Firmware Integration Technology" id="com.renesas.smc.tools.swcomponent.fit.source"/>
+            <source description="Components supporting Firmware Integration Technology" display="Firmware Integration Technology" id="com.renesas.smc.tools.swcomponent.fit.source"/>
+        </configuration>
+        <configuration inuse="true" name="r_cmt_rx">
+            <component description="Dependency : r_bsp version(s) 7.40&#10;This module creates a timer tick using a CMT channel based on a frequency input by the user." detailDescription="CMT driver" display="r_cmt_rx" id="r_cmt_rx5.60" version="5.60">
+                <gridItem id="CMT_RX_CFG_IPR" selectedIndex="5"/>
+                <gridItem id="CMT_CFG_CH0_EN_NESTED_INT" selectedIndex="0"/>
+                <gridItem id="CMT_CFG_CH1_EN_NESTED_INT" selectedIndex="0"/>
+                <gridItem id="CMT_CFG_CH2_EN_NESTED_INT" selectedIndex="0"/>
+                <gridItem id="CMT_CFG_CH3_EN_NESTED_INT" selectedIndex="0"/>
+            </component>
+            <source description="Components supporting Firmware Integration Technology" display="Firmware Integration Technology" id="com.renesas.smc.tools.swcomponent.fit.source"/>
+            <source description="Components supporting Firmware Integration Technology" display="Firmware Integration Technology" id="com.renesas.smc.tools.swcomponent.fit.source"/>
+        </configuration>
+    </tool>
+    <tool id="System">
+        <section id="ocd">
+            <option enabled="true" id="debugIF" selection="fine">
+                <item enabled="true" id="unused"/>
+                <item enabled="true" id="fine"/>
+            </option>
+        </section>
+    </tool>
+</smc>

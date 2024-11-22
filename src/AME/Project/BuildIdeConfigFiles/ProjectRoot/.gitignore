@@ -1,0 +1,14 @@
+.idea/workspace.xml
+.idea/usage.statistics.xml
+.idea/shelf/
+/cmake*
+.settings/e2studio_project.prefs
+.settings/language.settings.xml
+/build/
+/HardwareDebug/
+/trash/
+.project
+core
+.cache
+.orig
+VersionName.h

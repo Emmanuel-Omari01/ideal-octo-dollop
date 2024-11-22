@@ -1,0 +1,26 @@
+{
+    "injected_packages": {},
+    "main_package": {
+        "app_paths": [
+            {
+                "__Path__": "/home/plcdev/.local/pipx/venvs/cpplint/bin/cpplint",
+                "__type__": "Path"
+            }
+        ],
+        "app_paths_of_dependencies": {},
+        "apps": [
+            "cpplint"
+        ],
+        "apps_of_dependencies": [],
+        "include_apps": true,
+        "include_dependencies": false,
+        "package": "cpplint",
+        "package_or_url": "cpplint",
+        "package_version": "1.6.1",
+        "pip_args": [],
+        "suffix": ""
+    },
+    "pipx_metadata_version": "0.2",
+    "python_version": "Python 3.11.2",
+    "venv_args": []
+}

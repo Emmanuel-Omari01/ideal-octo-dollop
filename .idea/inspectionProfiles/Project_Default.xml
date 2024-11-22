@@ -1,0 +1,11 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="bashproExecutableNoShebang" enabled="true" level="WARNING" enabled_by_default="true" />
+    <inspection_tool class="bashproGoogleFileNameStyle" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="bashproGoogleMainMissing" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="bashproGoogleVariableNameStyle" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="bashproPossibleLocalVar" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
+    <inspection_tool class="bashproShebangNotExecutable" enabled="true" level="WARNING" enabled_by_default="true" />
+  </profile>
+</component>

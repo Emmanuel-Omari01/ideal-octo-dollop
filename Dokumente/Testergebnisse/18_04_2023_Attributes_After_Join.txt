@@ -1,0 +1,761 @@
+Attribute-Abfrage gestartet.
+
+Modem Anfrage
+|G3-Block||Channel 0|request---||ADP Layer----||Command:  6||Status: 0x00|
+Data: 000000
+
+Modem Antwort
+|G3-Block||Channel 0|confirm---||ADP Layer----||Command:  6||Status: 0x00|
+Data: 0000000005000000000000000000000000000000000000000000000000000000000000000000000000F8
+
+Get Attribute 0 soll nicht gespeichert werden
+
+Modem Anfrage
+|G3-Block||Channel 0|request---||ADP Layer----||Command:  6||Status: 0x01|
+Data: 010000
+
+Modem Antwort
+|G3-Block||Channel 0|confirm---||ADP Layer----||Command:  6||Status: 0x00|
+Data: 0001000000000000000000000000000000000000000000000000000000000000000000000000000000DF
+
+Get Attribute 1 soll nicht gespeichert werden
+
+Modem Anfrage
+|G3-Block||Channel 0|request---||ADP Layer----||Command:  6||Status: 0x02|
+Data: 020000
+
+Modem Antwort
+|G3-Block||Channel 0|confirm---||ADP Layer----||Command:  6||Status: 0x00|
+Data: 0002000000020000000000000000000000000000000000000000000000000000000000000000000000E1
+
+Get Attribute 2 soll nicht gespeichert werden
+
+Modem Anfrage
+|G3-Block||Channel 0|request---||ADP Layer----||Command:  6||Status: 0x03|
+Data: 030000
+
+Modem Antwort
+|G3-Block||Channel 0|confirm---||ADP Layer----||Command:  6||Status: 0x00|
+Data: 000300000F00000000000000000000000000000000000000000000000000000000000000000000000099
+
+Get Attribute 3 soll nicht gespeichert werden
+
+Modem Anfrage
+|G3-Block||Channel 0|request---||ADP Layer----||Command:  6||Status: 0x04|
+Data: 040000
+
+Modem Antwort
+|G3-Block||Channel 0|confirm---||ADP Layer----||Command:  6||Status: 0x00|
+Data: 00040000000000000000000000000000000000000000000000000000000000000000000000000000004D
+
+Get Attribute 4 soll nicht gespeichert werden
+
+Modem Anfrage
+|G3-Block||Channel 0|request---||ADP Layer----||Command:  6||Status: 0x05|
+Data: 050000
+
+Modem Antwort
+|G3-Block||Channel 0|confirm---||ADP Layer----||Command:  6||Status: 0x00|
+Data: 00050000FF000000000000000000000000000000000000000000000000000000000000000000000000FF
+
+Get Attribute 5 soll nicht gespeichert werden
+
+Modem Anfrage
+|G3-Block||Channel 0|request---||ADP Layer----||Command:  6||Status: 0x06|
+Data: 060000
+
+Modem Antwort
+|G3-Block||Channel 0|confirm---||ADP Layer----||Command:  6||Status: 0x00|
+Data: 00060000040000000000000000000000000000000000000000000000000000000000000000000000004D
+
+Get Attribute 6 soll nicht gespeichert werden
+
+Modem Anfrage
+|G3-Block||Channel 0|request---||ADP Layer----||Command:  6||Status: 0x07|
+Data: 070000
+
+Modem Antwort
+|G3-Block||Channel 0|confirm---||ADP Layer----||Command:  6||Status: 0x00|
+Data: 00070000000000000000000000000000000000000000000000000000000000000000000000000000003C
+
+Get Attribute 7 soll nicht gespeichert werden
+
+Modem Anfrage
+|G3-Block||Channel 0|request---||ADP Layer----||Command:  6||Status: 0x08|
+Data: 080000
+
+Modem Antwort
+|G3-Block||Channel 0|confirm---||ADP Layer----||Command:  6||Status: 0x00|
+Data: 00080000000000000000000000000000000000000000000000000000000000000000000000000000008F
+
+Get Attribute 8 soll nicht gespeichert werden
+
+Modem Anfrage
+|G3-Block||Channel 0|request---||ADP Layer----||Command:  6||Status: 0x09|
+Data: 090000
+
+Modem Antwort
+|G3-Block||Channel 0|confirm---||ADP Layer----||Command:  6||Status: 0x00|
+Data: 0009000000000000000000000000000000000000000000000000000000000000000000000000000000A0
+
+Get Attribute 9 soll nicht gespeichert werden
+
+Modem Anfrage
+|G3-Block||Channel 0|request---||ADP Layer----||Command:  6||Status: 0x0A|
+Data: 0A0000
+
+Modem Antwort
+|G3-Block||Channel 0|confirm---||ADP Layer----||Command:  6||Status: 0x00|
+Data: 000A000000000000000000000000000000000000000000000000000000000000000000000000000000D1
+
+Get Attribute 10 soll nicht gespeichert werden
+
+Modem Anfrage
+|G3-Block||Channel 0|request---||ADP Layer----||Command:  6||Status: 0x0B|
+Data: 0B0000
+
+Modem Antwort
+|G3-Block||Channel 0|confirm---||ADP Layer----||Command:  6||Status: 0x00|
+Data: 000B000000000000000000000000000000000000000000000000000000000000000000000000000000FE
+
+Get Attribute 11 soll nicht gespeichert werden
+
+Modem Anfrage
+|G3-Block||Channel 0|request---||ADP Layer----||Command:  6||Status: 0x0C|
+Data: 0C0000
+
+Modem Antwort
+|G3-Block||Channel 0|confirm---||ADP Layer----||Command:  6||Status: 0x00|
+Data: 000C0000000000007FFF08080166000000000000000000000000000000000000000000000000000000CD
+
+Attribute 12 bereits gespeichert. Index:0
+
+Modem Anfrage
+|G3-Block||Channel 0|request---||ADP Layer----||Command:  6||Status: 0x0D|
+Data: 0D0000
+
+Modem Antwort
+|G3-Block||Channel 0|confirm---||ADP Layer----||Command:  6||Status: 0x00|
+Data: 000D0000010000000000000000000000000000000000000000000000000000000000000000000000004B
+
+Get Attribute 13 soll nicht gespeichert werden
+
+Modem Anfrage
+|G3-Block||Channel 0|request---||ADP Layer----||Command:  6||Status: 0x0E|
+Data: 0E0000
+
+Modem Antwort
+|G3-Block||Channel 0|confirm---||ADP Layer----||Command:  6||Status: 0x00|
+Data: 000E0000000000000000000000000000000000000000000000000000000000000000000000000000006C
+
+Get Attribute 14 soll nicht gespeichert werden
+
+Modem Anfrage
+|G3-Block||Channel 0|request---||ADP Layer----||Command:  6||Status: 0x0F|
+Data: 0F0000
+
+Modem Antwort
+|G3-Block||Channel 0|confirm---||ADP Layer----||Command:  6||Status: 0x00|
+Data: 000F000008000000000000000000000000000000000000000000000000000000000000000000000000FE
+
+Get Attribute 15 soll nicht gespeichert werden
+
+Modem Anfrage
+|G3-Block||Channel 0|request---||ADP Layer----||Command:  6||Status: 0x10|
+Data: 100000
+
+Modem Antwort
+|G3-Block||Channel 0|confirm---||ADP Layer----||Command:  6||Status: 0x00|
+Data: 00100000000000000000000000000000000000000000000000000000000000000000000000000000000F
+
+Get Attribute 16 soll nicht gespeichert werden
+
+Modem Anfrage
+|G3-Block||Channel 0|request---||ADP Layer----||Command:  6||Status: 0x11|
+Data: 110000
+
+Modem Antwort
+|G3-Block||Channel 0|confirm---||ADP Layer----||Command:  6||Status: 0x00|
+Data: 0011000000140000000000000000000000000000000000000000000000000000000000000000000000CB
+
+Get Attribute 17 soll nicht gespeichert werden
+
+Modem Anfrage
+|G3-Block||Channel 0|request---||ADP Layer----||Command:  6||Status: 0x12|
+Data: 120000
+
+Modem Antwort
+|G3-Block||Channel 0|confirm---||ADP Layer----||Command:  6||Status: 0x00|
+Data: 0012000001680000000000000000000000000000000000000000000000000000000000000000000000027D
+
+Get Attribute 18 soll nicht gespeichert werden
+
+Modem Anfrage
+|G3-Block||Channel 0|request---||ADP Layer----||Command:  6||Status: 0x13|
+Data: 130000
+
+Modem Antwort
+|G3-Block||Channel 0|confirm---||ADP Layer----||Command:  6||Status: 0x00|
+Data: 00130000000000000000000000000000000000000000000000000000000000000000000000000000007D5E
+
+Get Attribute 19 soll nicht gespeichert werden
+
+Modem Anfrage
+|G3-Block||Channel 0|request---||ADP Layer----||Command:  6||Status: 0x14|
+Data: 140000
+
+Modem Antwort
+|G3-Block||Channel 0|confirm---||ADP Layer----||Command:  6||Status: 0x00|
+Data: 0014000000000000000000000000000000000000000000000000000000000000000000000000000000B2
+
+Get Attribute 20 soll nicht gespeichert werden
+
+Modem Anfrage
+|G3-Block||Channel 0|request---||ADP Layer----||Command:  6||Status: 0x15|
+Data: 150000
+
+Modem Antwort
+|G3-Block||Channel 0|confirm---||ADP Layer----||Command:  6||Status: 0x00|
+Data: 00150000000000000000000000000000000000000000000000000000000000000000000000000000009D
+
+Get Attribute 21 soll nicht gespeichert werden
+
+Modem Anfrage
+|G3-Block||Channel 0|request---||ADP Layer----||Command:  6||Status: 0x16|
+Data: 160000
+
+Modem Antwort
+|G3-Block||Channel 0|confirm---||ADP Layer----||Command:  6||Status: 0x00|
+Data: 001600000A000000000000000000000000000000000000000000000000000000000000000000000000FC
+
+Get Attribute 22 soll nicht gespeichert werden
+
+Modem Anfrage
+|G3-Block||Channel 0|request---||ADP Layer----||Command:  6||Status: 0x17|
+Data: 170000
+
+Modem Antwort
+|G3-Block||Channel 0|confirm---||ADP Layer----||Command:  6||Status: 0x00|
+Data: 00170000040000000000000000000000000000000000000000000000000000000000000000000000009D
+
+Get Attribute 23 soll nicht gespeichert werden
+
+Modem Anfrage
+|G3-Block||Channel 0|request---||ADP Layer----||Command:  6||Status: 0x18|
+Data: 180000
+
+Modem Antwort
+|G3-Block||Channel 0|confirm---||ADP Layer----||Command:  6||Status: 0x00|
+Data: 001800000000000000000000000000000000000000000000000000000000000000000000000000000070
+
+Get Attribute 24 soll nicht gespeichert werden
+
+Modem Anfrage
+|G3-Block||Channel 0|request---||ADP Layer----||Command:  6||Status: 0x19|
+Data: 190000
+
+Modem Antwort
+|G3-Block||Channel 0|confirm---||ADP Layer----||Command:  6||Status: 0x00|
+Data: 001900001E0000000000000000000000000000000000000000000000000000000000000000000000006F
+
+Get Attribute 25 soll nicht gespeichert werden
+
+Modem Anfrage
+|G3-Block||Channel 0|request---||ADP Layer----||Command:  6||Status: 0x1A|
+Data: 1A0000
+
+Modem Antwort
+|G3-Block||Channel 0|confirm---||ADP Layer----||Command:  6||Status: 0x00|
+Data: 001A000034000000000000000000000000000000000000000000000000000000000000000000000000F3
+
+Get Attribute 26 soll nicht gespeichert werden
+
+Modem Anfrage
+|G3-Block||Channel 0|request---||ADP Layer----||Command:  6||Status: 0x1B|
+Data: 1B0000
+
+Modem Antwort
+|G3-Block||Channel 0|confirm---||ADP Layer----||Command:  6||Status: 0x00|
+Data: 001B00000000000000000000000000000000000000000000000000000000000000000000000000000001
+
+Get Attribute 27 soll nicht gespeichert werden
+
+Modem Anfrage
+|G3-Block||Channel 0|request---||ADP Layer----||Command:  6||Status: 0x1C|
+Data: 1C0000
+
+Modem Antwort
+|G3-Block||Channel 0|confirm---||ADP Layer----||Command:  6||Status: 0x00|
+Data: 001C0000022C022C08E603000000000000000000000000000000000000000000000000000000000000CE
+
+Get Attribute 28 soll nicht gespeichert werden
+
+Modem Anfrage
+|G3-Block||Channel 0|request---||ADP Layer----||Command:  6||Status: 0x1E|
+Data: 1E000084
+
+Modem Antwort
+|G3-Block||Channel 0|confirm---||ADP Layer----||Command:  6||Status: 0x00|
+Data: 001E00000000000000000000000000000000000000000000000000000000000000000000000000000093
+
+Get Attribute 30 soll nicht gespeichert werden
+
+Modem Anfrage
+|G3-Block||Channel 0|request---||ADP Layer----||Command:  6||Status: 0x1F|
+Data: 1F0000
+
+Modem Antwort
+|G3-Block||Channel 0|confirm---||ADP Layer----||Command:  6||Status: 0x00|
+Data: 001F0000000A0000000000000000000000000000000000000000000000000000000000000000000000C9
+
+Get Attribute 31 soll nicht gespeichert werden
+
+Modem Anfrage
+|G3-Block||Channel 0|request---||ADP Layer----||Command:  6||Status: 0x20|
+Data: 200000
+
+Modem Antwort
+|G3-Block||Channel 0|confirm---||ADP Layer----||Command:  6||Status: 0x00|
+Data: 0020000000140000000000000000000000000000000000000000000000000000000000000000000000E0
+
+Get Attribute 32 soll nicht gespeichert werden
+
+Modem Anfrage
+|G3-Block||Channel 0|request---||ADP Layer----||Command:  6||Status: 0x21|
+Data: 210000
+
+Modem Antwort
+|G3-Block||Channel 0|confirm---||ADP Layer----||Command:  6||Status: 0x00|
+Data: 0021000000280000000000000000000000000000000000000000000000000000000000000000000000F7
+
+Get Attribute 33 soll nicht gespeichert werden
+
+Modem Anfrage
+|G3-Block||Channel 0|request---||ADP Layer----||Command:  6||Status: 0x22|
+Data: 220000
+
+Modem Antwort
+|G3-Block||Channel 0|confirm---||ADP Layer----||Command:  6||Status: 0x00|
+Data: 002200000000000000000000000000000000000000000000000000000000000000000000000000000055
+
+Get Attribute 34 soll nicht gespeichert werden
+
+Modem Anfrage
+|G3-Block||Channel 0|request---||ADP Layer----||Command:  6||Status: 0x23|
+Data: 230000
+
+Modem Antwort
+|G3-Block||Channel 0|confirm---||ADP Layer----||Command:  6||Status: 0x00|
+Data: 00230000000000000000000000000000000000000000000000000000000000000000000000000000007A
+
+Get Attribute 35 soll nicht gespeichert werden
+
+Modem Anfrage
+|G3-Block||Channel 0|request---||ADP Layer----||Command:  6||Status: 0x24|
+Data: 240000
+
+Modem Antwort
+|G3-Block||Channel 0|confirm---||ADP Layer----||Command:  6||Status: 0x00|
+Data: 0024000001000000000000000000000000000000000000000000000000000000000000000000000000E0
+
+Get Attribute 36 soll nicht gespeichert werden
+
+Modem Anfrage
+|G3-Block||Channel 0|request---||ADP Layer----||Command:  6||Status: 0xF0|
+Data: F00000
+
+Modem Antwort
+|G3-Block||Channel 0|confirm---||ADP Layer----||Command:  6||Status: 0x00|
+Data: 00F0000000000000000000000000000000000000000000000000000000000000000000000000000000E5
+
+Get Attribute 240 soll nicht gespeichert werden
+
+Modem Anfrage
+|G3-Block||Channel 0|request---||UMAC Layer---||Command:  2||Status: 0x00|
+Data: 00400000
+
+Modem Antwort
+|G3-Block||Channel 0|confirm---||UMAC Layer---||Command:  2||Status: 0x00|
+Data: 000040000000E6FFFFFFFFFFFFFF24010010618CF40100030000FEFF27
+
+Get Attribute 64 soll nicht gespeichert werden
+
+Modem Anfrage
+|G3-Block||Channel 0|request---||UMAC Layer---||Command:  2||Status: 0x00|
+Data: 00470000
+
+Modem Antwort
+|G3-Block||Channel 0|confirm---||UMAC Layer---||Command:  2||Status: 0x00|
+Data: 000047000008E6FFFFFFFFFFFFFF24010010618CF40100030000FEFFBC
+
+Get Attribute 71 soll nicht gespeichert werden
+
+Modem Anfrage
+|G3-Block||Channel 0|request---||UMAC Layer---||Command:  2||Status: 0x00|
+Data: 00490000
+
+Modem Antwort
+|G3-Block||Channel 0|confirm---||UMAC Layer---||Command:  2||Status: 0x00|
+Data: 00004900007F0000000000000000000000000000000000000000000082
+
+Get Attribute 73 soll nicht gespeichert werden
+
+Modem Anfrage
+|G3-Block||Channel 0|request---||UMAC Layer---||Command:  2||Status: 0x00|
+Data: 004C0000
+
+Modem Antwort
+|G3-Block||Channel 0|confirm---||UMAC Layer---||Command:  2||Status: 0x00|
+Data: 00004C00006A0000000000000000000000000000000000000000000094
+
+Get Attribute 76 soll nicht gespeichert werden
+
+Modem Anfrage
+|G3-Block||Channel 0|request---||UMAC Layer---||Command:  2||Status: 0x00|
+Data: 004E0000
+
+Modem Antwort
+|G3-Block||Channel 0|confirm---||UMAC Layer---||Command:  2||Status: 0x00|
+Data: 00004E000032E6FFFFFFFFFFFFFF24010010618CF40100030000FEFFD1
+
+Get Attribute 78 soll nicht gespeichert werden
+
+Modem Anfrage
+|G3-Block||Channel 0|request---||UMAC Layer---||Command:  2||Status: 0x00|
+Data: 004F0000
+
+Modem Antwort
+|G3-Block||Channel 0|confirm---||UMAC Layer---||Command:  2||Status: 0x00|
+Data: 00004F000003E6FFFFFFFFFFFFFF24010010618CF40100030000FEFF9A
+
+Get Attribute 79 soll nicht gespeichert werden
+
+Modem Anfrage
+|G3-Block||Channel 0|request---||UMAC Layer---||Command:  2||Status: 0x00|
+Data: 00500000
+
+Modem Antwort
+|G3-Block||Channel 0|confirm---||UMAC Layer---||Command:  2||Status: 0x00|
+Data: 00005000000001FFFFFFFFFFFFFF24010010618CF40100030000FEFFCB
+
+Get Attribute 80 soll nicht gespeichert werden
+
+Modem Anfrage
+|G3-Block||Channel 0|request---||UMAC Layer---||Command:  2||Status: 0x00|
+Data: 00510000
+
+Modem Antwort
+|G3-Block||Channel 0|confirm---||UMAC Layer---||Command:  2||Status: 0x00|
+Data: 00005100000000000000000000000000000000000000000000000000BA
+
+Get Attribute 81 soll nicht gespeichert werden
+
+Modem Anfrage
+|G3-Block||Channel 0|request---||UMAC Layer---||Command:  2||Status: 0x00|
+Data: 00530000
+
+Modem Antwort
+|G3-Block||Channel 0|confirm---||UMAC Layer---||Command:  2||Status: 0x00|
+Data: 00005300000002FFFFFFFFFFFFFF24010010618CF40100030000FEFFFF
+
+Get Attribute 83 soll nicht gespeichert werden
+
+Modem Anfrage
+|G3-Block||Channel 0|request---||UMAC Layer---||Command:  2||Status: 0x00|
+Data: 00590000
+
+Modem Antwort
+|G3-Block||Channel 0|confirm---||UMAC Layer---||Command:  2||Status: 0x00|
+Data: 00005900000500000000000000000000000000000000000000000000BB
+
+Get Attribute 89 soll nicht gespeichert werden
+
+Modem Anfrage
+|G3-Block||Channel 0|request---||UMAC Layer---||Command:  2||Status: 0x00|
+Data: 005C0000
+
+Modem Antwort
+|G3-Block||Channel 0|confirm---||UMAC Layer---||Command:  2||Status: 0x00|
+Data: 00005C00000100000000000000000000000000000000000000000000CF
+
+Get Attribute 92 soll nicht gespeichert werden
+
+Modem Anfrage
+|G3-Block||Channel 0|request---||UMAC Layer---||Command:  2||Status: 0x00|
+Data: 005D0000
+
+Modem Antwort
+|G3-Block||Channel 0|confirm---||UMAC Layer---||Command:  2||Status: 0x00|
+Data: 00005D000001000000000000000000000000000000000000000000002F
+
+Get Attribute 93 soll nicht gespeichert werden
+
+Modem Anfrage
+|G3-Block||Channel 0|request---||UMAC Layer---||Command:  2||Status: 0x00|
+Data: 00730000
+
+Modem Antwort
+|G3-Block||Channel 0|confirm---||UMAC Layer---||Command:  2||Status: 0x00|
+Data: 0000730000000000000000000000000000000000000000000000000005
+
+Get Attribute 115 soll nicht gespeichert werden
+
+Modem Anfrage
+|G3-Block||Channel 0|request---||UMAC Layer---||Command:  2||Status: 0x00|
+Data: 00770000
+
+Modem Antwort
+|G3-Block||Channel 0|confirm---||UMAC Layer---||Command:  2||Status: 0x00|
+Data: 0000770000000000000000000000000000000000000000000000000088
+
+Attribute 119 bereits gespeichert. Index:0
+
+Modem Anfrage
+|G3-Block||Channel 0|request---||UMAC Layer---||Command:  2||Status: 0x01|
+Data: 01000000
+
+Modem Antwort
+|G3-Block||Channel 0|confirm---||UMAC Layer---||Command:  2||Status: 0x00|
+Data: 00010000000702FFFFFFFFFFFFFF24010010618CF40100030000FEFFD5
+
+Get Attribute 256 soll nicht gespeichert werden
+
+Modem Anfrage
+|G3-Block||Channel 0|request---||UMAC Layer---||Command:  2||Status: 0x01|
+Data: 01010000
+
+Modem Antwort
+|G3-Block||Channel 0|confirm---||UMAC Layer---||Command:  2||Status: 0x00|
+Data: 00010100000000000300000000000000000000000000000000000000FB
+
+Get Attribute 257 soll nicht gespeichert werden
+
+Modem Anfrage
+|G3-Block||Channel 0|request---||UMAC Layer---||Command:  2||Status: 0x01|
+Data: 01020000
+
+Modem Antwort
+|G3-Block||Channel 0|confirm---||UMAC Layer---||Command:  2||Status: 0x00|
+Data: 00010200000000000300000000000000000000000000000000000000DF
+
+Get Attribute 258 soll nicht gespeichert werden
+
+Modem Anfrage
+|G3-Block||Channel 0|request---||UMAC Layer---||Command:  2||Status: 0x01|
+Data: 01030000
+
+Modem Antwort
+|G3-Block||Channel 0|confirm---||UMAC Layer---||Command:  2||Status: 0x00|
+Data: 0001030000000000010000000000000000000000000000000000000057
+
+Get Attribute 259 soll nicht gespeichert werden
+
+Modem Anfrage
+|G3-Block||Channel 0|request---||UMAC Layer---||Command:  2||Status: 0x01|
+Data: 01040000
+
+Modem Antwort
+|G3-Block||Channel 0|confirm---||UMAC Layer---||Command:  2||Status: 0x00|
+Data: 00010400000000000100000000000000000000000000000000000000FE
+
+Get Attribute 260 soll nicht gespeichert werden
+
+Modem Anfrage
+|G3-Block||Channel 0|request---||UMAC Layer---||Command:  2||Status: 0x01|
+Data: 01050000
+
+Modem Antwort
+|G3-Block||Channel 0|confirm---||UMAC Layer---||Command:  2||Status: 0x00|
+Data: 000105000000000000000000000000000000000000000000000000002A
+
+Get Attribute 261 soll nicht gespeichert werden
+
+Modem Anfrage
+|G3-Block||Channel 0|request---||UMAC Layer---||Command:  2||Status: 0x01|
+Data: 01060000
+
+Modem Antwort
+|G3-Block||Channel 0|confirm---||UMAC Layer---||Command:  2||Status: 0x00|
+Data: 000106000000000000000000000000000000000000000000000000000E
+
+Get Attribute 262 soll nicht gespeichert werden
+
+Modem Anfrage
+|G3-Block||Channel 0|request---||UMAC Layer---||Command:  2||Status: 0x01|
+Data: 01070000
+
+Modem Antwort
+|G3-Block||Channel 0|confirm---||UMAC Layer---||Command:  2||Status: 0x00|
+Data: 00010700000000000000000000000000000000000000000000000000EE
+
+Get Attribute 263 soll nicht gespeichert werden
+
+Modem Anfrage
+|G3-Block||Channel 0|request---||UMAC Layer---||Command:  2||Status: 0x01|
+Data: 01080000
+
+Modem Antwort
+|G3-Block||Channel 0|confirm---||UMAC Layer---||Command:  2||Status: 0x00|
+Data: 0001080000000000000000000000000000000000000000000000000059
+
+Get Attribute 264 soll nicht gespeichert werden
+
+Modem Anfrage
+|G3-Block||Channel 0|request---||UMAC Layer---||Command:  2||Status: 0x01|
+Data: 01090000
+
+Modem Antwort
+|G3-Block||Channel 0|confirm---||UMAC Layer---||Command:  2||Status: 0x00|
+Data: 00010900000000000000000000000000000000000000000000000000B9
+
+Get Attribute 265 soll nicht gespeichert werden
+
+Modem Anfrage
+|G3-Block||Channel 0|request---||UMAC Layer---||Command:  2||Status: 0x01|
+Data: 010A0000
+
+Modem Antwort
+|G3-Block||Channel 0|confirm---||UMAC Layer---||Command:  2||Status: 0x00|
+Data: 00010A0000060000C0037F02000000083F0000000000003E0000000069
+
+Attribute 266 bereits gespeichert. Index:0
+
+Modem Anfrage
+|G3-Block||Channel 0|request---||UMAC Layer---||Command:  2||Status: 0x01|
+Data: 010C0000
+
+Modem Antwort
+|G3-Block||Channel 0|confirm---||UMAC Layer---||Command:  2||Status: 0x00|
+Data: 00010C00001902FFFFFFFFFFFFFF24010010618CF40100030000FEFF05
+
+Get Attribute 268 soll nicht gespeichert werden
+
+Modem Anfrage
+|G3-Block||Channel 0|request---||UMAC Layer---||Command:  2||Status: 0x01|
+Data: 010D0000
+
+Modem Antwort
+|G3-Block||Channel 0|confirm---||UMAC Layer---||Command:  2||Status: 0x00|
+Data: 00010D00000000000A00000000000000000000000000000000000000F8
+
+Get Attribute 269 soll nicht gespeichert werden
+
+Modem Anfrage
+|G3-Block||Channel 0|request---||UMAC Layer---||Command:  2||Status: 0x01|
+Data: 010E0000
+
+Modem Antwort
+|G3-Block||Channel 0|confirm---||UMAC Layer---||Command:  2||Status: 0x00|
+Data: 00010E0000000000FF00000000000000000000000000000000000000BC
+
+Get Attribute 270 soll nicht gespeichert werden
+
+Modem Anfrage
+|G3-Block||Channel 0|request---||UMAC Layer---||Command:  2||Status: 0x01|
+Data: 010F0000
+
+Modem Antwort
+|G3-Block||Channel 0|confirm---||UMAC Layer---||Command:  2||Status: 0x00|
+Data: 00010F00007FFF000000000000000000000000000000000000000000B8
+
+Get Attribute 271 soll nicht gespeichert werden
+
+Modem Anfrage
+|G3-Block||Channel 0|request---||UMAC Layer---||Command:  2||Status: 0x01|
+Data: 01100000
+
+Modem Antwort
+|G3-Block||Channel 0|confirm---||UMAC Layer---||Command:  2||Status: 0x00|
+Data: 0001100000FFFFFFFFFFFFFFFFFF24010010618CF40100030000FEFF7B
+
+Get Attribute 272 soll nicht gespeichert werden
+
+Modem Anfrage
+|G3-Block||Channel 0|request---||UMAC Layer---||Command:  2||Status: 0x01|
+Data: 01110000
+
+Modem Antwort
+|G3-Block||Channel 0|confirm---||UMAC Layer---||Command:  2||Status: 0x00|
+Data: 00011100000C00000000000000000000000000000000000000000000B1
+
+Get Attribute 273 soll nicht gespeichert werden
+
+Modem Anfrage
+|G3-Block||Channel 0|request---||UMAC Layer---||Command:  2||Status: 0x01|
+Data: 01120000
+
+Modem Antwort
+|G3-Block||Channel 0|confirm---||UMAC Layer---||Command:  2||Status: 0x00|
+Data: 000112000008FFFFFFFFFFFFFFFF24010010618CF40100030000FEFFBD
+
+Get Attribute 274 soll nicht gespeichert werden
+
+Modem Anfrage
+|G3-Block||Channel 0|request---||UMAC Layer---||Command:  2||Status: 0x01|
+Data: 01130000
+
+Modem Antwort
+|G3-Block||Channel 0|confirm---||UMAC Layer---||Command:  2||Status: 0x00|
+Data: 000113000005FFFFFFFFFFFFFFFF24010010618CF40100030000FEFF70
+
+Get Attribute 275 soll nicht gespeichert werden
+
+Modem Anfrage
+|G3-Block||Channel 0|request---||UMAC Layer---||Command:  2||Status: 0x01|
+Data: 01140000
+
+Modem Antwort
+|G3-Block||Channel 0|confirm---||UMAC Layer---||Command:  2||Status: 0x00|
+Data: 00011400000AFFFFFFFFFFFFFFFF24010010618CF40100030000FEFFF8
+
+Get Attribute 276 soll nicht gespeichert werden
+
+Modem Anfrage
+|G3-Block||Channel 0|request---||UMAC Layer---||Command:  2||Status: 0x01|
+Data: 01150000
+
+Modem Antwort
+|G3-Block||Channel 0|confirm---||UMAC Layer---||Command:  2||Status: 0x00|
+Data: 000115000001FFFFFFFFFFFFFFFF24010010618CF40100030000FEFF20
+
+Get Attribute 277 soll nicht gespeichert werden
+
+Modem Anfrage
+|G3-Block||Channel 0|request---||UMAC Layer---||Command:  2||Status: 0x01|
+Data: 01160000
+
+Modem Antwort
+|G3-Block||Channel 0|confirm---||UMAC Layer---||Command:  2||Status: 0x00|
+Data: 000116000001FFFFFFFFFFFFFFFF24010010618CF40100030000FEFF04
+
+Get Attribute 278 soll nicht gespeichert werden
+
+Modem Anfrage
+|G3-Block||Channel 0|request---||UMAC Layer---||Command:  2||Status: 0x01|
+Data: 011E0000
+
+Modem Antwort
+|G3-Block||Channel 0|confirm---||UMAC Layer---||Command:  2||Status: 0x00|
+Data: 00011E000000FFFFFFFFFFFFFFFF24010010618CF40100030000FEFF1C
+
+Get Attribute 286 soll nicht gespeichert werden
+
+Modem Anfrage
+|G3-Block||Channel 0|request---||UMAC Layer---||Command:  2||Status: 0x01|
+Data: 011F0000
+
+Modem Antwort
+|G3-Block||Channel 0|confirm---||UMAC Layer---||Command:  2||Status: 0x00|
+Data: 00011F000000FFFFFFFFFFFFFFFF24010010618CF40100030000FEFFFC
+
+Get Attribute 287 soll nicht gespeichert werden
+
+Modem Anfrage
+|G3-Block||Channel 0|request---||UMAC Layer---||Command:  2||Status: 0x01|
+Data: 01200000
+
+Modem Antwort
+|G3-Block||Channel 0|confirm---||UMAC Layer---||Command:  2||Status: 0x00|
+Data: 000120000000003E000000FD0600000000000000000000000000000090
+
+Get Attribute 288 soll nicht gespeichert werden
